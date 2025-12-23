@@ -32,10 +32,11 @@ $conn->query("INSERT INTO students(name,course)
 VALUES('$_POST[name]','$_POST[course]')");
 }
 ?>
-<form class="form" method="post"  action="view.php">
+<form class="form" method="post">
 <input name="name" placeholder="Name"><br>
 <input name="course" placeholder="Course"><br>
 <button class="add" >Add</button><br>
 </form>
 </body>
 </html>
+
